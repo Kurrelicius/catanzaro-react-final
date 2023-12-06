@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,61 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.hero--container{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.container--task{
+  height: 100px;
+  width: 600px;
+  background-color: #fff;
+}
+.task--text{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.task--paragraph{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.task--list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  width: 600px;
+  margin-bottom: 8px;
+  background-color: #ece3e3;
+}
+.description--task{
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.checkComplete{
+  margin-right: 10px;
+}
+a{
+  text-decoration: none;
+  margin-right: 15px;
+  color: #000;
+}
+.task--list__cuatro{
+  display: none;
+}
+#cta{
+  border: 2px solid;
+  border-radius: 10px;
+  font-size: 30px;
+  margin-top: 20px;
+}
+.App{
+  padding: 20px;
+  background-color: #80808080;
 }
